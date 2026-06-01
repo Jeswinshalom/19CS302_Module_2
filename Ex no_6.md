@@ -4,22 +4,30 @@
 To write a C Program to print the string "KEYBOARD" n number of times.
 
 ## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
+Start.
+Declare the variables i,n.
+Prompt the user to enter a value.
+Read the value using scanf.
+Run the for loop for “i” variable.
+Print “KEYBOARD\n”.
+End. 
 
 ## Program:
 ```
-/*
-Program to print the string "KEYBOARD" n number of times.
-Developed by: 
-RegisterNumber:  
-*/
+#include<stdio.h> 
+int main() 
+{ 
+int i,n; 
+scanf("%d",&n); 
+for(i=1;i<=n;i++) 
+{printf("KEYBOARD\n"); 
+}return 0; 
+} 
 ```
 
 ## Output:
+
+<img width="419" height="123" alt="image" src="https://github.com/user-attachments/assets/6980e062-237e-4cea-937e-d9f8fd98f089" />
 
 
 
