@@ -1,7 +1,7 @@
-# EX 10 C program to find the factorial of a given number using a function with arguments and return type.
+# EX 10 C program to find the factorial of a given number using function without return type without arguments.
 ## DATE:
 ## AIM:
-To write a C program to find the factorial of a given number using a function with arguments and return type.
+To write a C program to find the factorial of a given number using a function without return type without arguments.
 
 ## Algorithm
 Start.
@@ -13,27 +13,26 @@ End.
 
 ## Program:
 ```
-#include <stdio.h> 
-int main() { 
-    int n, i; 
-    unsigned long long factorial = 1; 
-    scanf("%d", &n); 
- 
-    if (n < 0) { 
-        printf("Factorial is not defined for negative numbers.\n"); 
-    } else { 
-        for (i = 1; i <= n; i++) { 
-            factorial *= i; 
-        } 
-        printf("Factorial of %d = %llu\n", n, factorial); 
-    } 
-    return 0; 
+#include <stdio.h>
+void mul();
+int main()
+{
+    mul();
+}
+void mul()
+{
+    long long int f=1,i,n;
+    scanf("%lld",&n);
+    for(i=1;i<=n;i++)
+    {
+     f=f*i; 
+    }
+    printf("Factorial value is: %lld\n",f);
 }
 ```
 
 ## Output:
-
-<img width="518" height="199" alt="image" src="https://github.com/user-attachments/assets/2693a540-4f81-4e6b-bf6c-4f0a9b1baafe" />
+<img width="1137" height="156" alt="Screenshot 2026-06-08 135649" src="https://github.com/user-attachments/assets/b31e5de2-7911-4fb5-9415-c87909512e19" />
 
 
 ## Result:
